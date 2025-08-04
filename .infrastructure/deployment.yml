@@ -36,7 +36,7 @@ spec:
         - name: SECRET_KEY
           valueFrom:
             secretKeyRef:
-              name: mateoapp-secret
+              name: todoapp-secret
               key: SECRET_KEY
         ports:
         - containerPort: 8080

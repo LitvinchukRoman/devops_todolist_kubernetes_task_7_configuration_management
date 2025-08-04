@@ -1,7 +1,7 @@
 Застосувати всі YAML-файли (припускаю, що файли називаються secret.yaml, configmap.yaml, deployment.yaml):
-kubectl apply -f secret.yaml
-kubectl apply -f configmap.yaml
-kubectl apply -f deployment.yaml
+kubectl apply -f secret.yml
+kubectl apply -f configmap.yml
+kubectl apply -f deployment.yml
 	2.	Перевірити статус подів у namespace todoapp:
 kubectl get pods -n todoapp
 	3.	Перевірити, чи контейнер працює і всі контейнери готові:
